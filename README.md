@@ -24,7 +24,7 @@ There are two ammo behaviour modes for autoturrets placed through the map editor
 If you are an admin and have god & noclip modes enabled then autoturrets won't shoot you, but they will keep aiming at you.
 
 ## Custom Elevators
-Elevators are fully supported and work as expected. Elevators placed through the editor will be re-generated on each server startup, and then destroyed on server shut down. If your server crashes or stops working due to any other unexpected problem, which makes server skip the proper shutdown process, elevators will be re-validated on next server start. If it detects any elevators that weren't destroyed since last shutdown, server will automatically reboot to avoid any issues with custom elevators. This has no effect on elevators deployed by players. 
+Elevators are fully supported and work as expected. Elevators placed through the editor will be re-generated on each server startup, and then destroyed on server shut down. If your server crashes and plugin doesn't clean up elevators, they will be removed on next server launch and regenerate. There's a chance that it won't work as expected, so do a proper server restart to ensure they are working correctly after a crash. 
   
 ## Installing
 Copy `Core.IO.Continued.dll` to your `../<server root folder>/HarmonyMods` folder.
