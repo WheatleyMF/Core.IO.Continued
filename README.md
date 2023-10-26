@@ -5,6 +5,9 @@ This is a continuation of old bmgjet's Harmony mod to keep it compatible with mo
 * **HBHF Sensors support**: now sensors output passthrough energy as expected. Energy output is no longer tied to current amount of detected entities, and instead provides a static amount of energy that is enough to power up anything in IO chain. This behaviour does not affect HBHF sensors deployed by a player.
 * **Autoturret Interference immunity**: autoturrets placed through the editor are no longer affected by interference limitations. If your custom map has many autoturrets placed close to each other, they are no longer risking to become "jammed" regardless of your current server configuration. Player deployed autoturrets are still behaving as usual. 
 
+# Download
+Latest version is available in [Releases](https://github.com/WheatleyMF/Core.IO.Continued/releases). Please make sure to use latest version, previous versions may have some bugs. 
+
 ## Chat Commands
 All commands listed here are admin-only. 
 
