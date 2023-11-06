@@ -17,6 +17,9 @@ All commands listed here are admin-only.
 ## Permissions 
 As an admin, you are able to pick up IO entities, authorize in turret, edit their contents and adjust the wiring. To activate this "edit mode", you should be in god mode and have noclip enabled. Players are not able to edit these entities. 
 
+## Crate Respawn 
+If you've been dealing with loot spawners on custom monuments, you might know that some crates respawn way too often, or won't spawn at all. Core.IO handles this problem, and should keep all spawners working as intended. 
+
 ## Autoturrets
 Custom autoturrets support all options you can select in RustEdit - `Peacekeeper Mode`, `Unlimited Ammo` and any weapon. Also they won't be affected by turret interference limitations added in October 2023 update. 
 
