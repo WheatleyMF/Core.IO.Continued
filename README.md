@@ -33,4 +33,4 @@ Elevators are fully supported and work as expected. Elevators placed through the
 Copy `Core.IO.Continued.dll` to your `../<server root folder>/HarmonyMods` folder.
 
 ## Reloading
-Please, do not reload this mod while server is running – otherwise you are risking to corrupt map saving process and make players lose recent progress. If you want to apply an update, just put the latest version in HarmonyMods folder and then restart the server. I am not sure what is causing this but I'm hoping to resolve this in future versions.
+Please, do not reload this mod while server is running. If you want to apply an update, just put the latest version in HarmonyMods folder and then restart the server. 
